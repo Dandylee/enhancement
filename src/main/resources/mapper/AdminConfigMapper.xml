@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.home.hhht.dao.AdminConfigMapper">
+  <resultMap id="BaseResultMap" type="com.home.hhht.domain.AdminConfig">
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="last_modified_by" jdbcType="VARCHAR" property="lastModifiedBy" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+  </resultMap>
+  <insert id="insert" parameterType="com.home.hhht.domain.AdminConfig">
+    insert into admin_config (id, name, description, 
+      value, created_by, last_modified_by, 
+      created_date, last_modified_date)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}, 
+      #{value,jdbcType=VARCHAR}, #{createdBy,jdbcType=VARCHAR}, #{lastModifiedBy,jdbcType=VARCHAR}, 
+      #{createdDate,jdbcType=TIMESTAMP}, #{lastModifiedDate,jdbcType=TIMESTAMP})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, description, value, created_by, last_modified_by, created_date, 
+    last_modified_date
+    from admin_config
+  </select>
+  <resultMap id="BaseResultMap" type="com.home.hhht.domain.AdminConfig">
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="last_modified_by" jdbcType="VARCHAR" property="lastModifiedBy" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+  </resultMap>
+  <insert id="insert" parameterType="com.home.hhht.domain.AdminConfig">
+    insert into admin_config (id, name, description, 
+      value, created_by, last_modified_by, 
+      created_date, last_modified_date)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}, 
+      #{value,jdbcType=VARCHAR}, #{createdBy,jdbcType=VARCHAR}, #{lastModifiedBy,jdbcType=VARCHAR}, 
+      #{createdDate,jdbcType=TIMESTAMP}, #{lastModifiedDate,jdbcType=TIMESTAMP})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, description, value, created_by, last_modified_by, created_date, 
+    last_modified_date
+    from admin_config
+  </select>
+  <resultMap id="BaseResultMap" type="com.home.hhht.domain.AdminConfig">
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="last_modified_by" jdbcType="VARCHAR" property="lastModifiedBy" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+  </resultMap>
+  <insert id="insert" parameterType="com.home.hhht.domain.AdminConfig">
+    insert into admin_config (id, name, description, 
+      value, created_by, last_modified_by, 
+      created_date, last_modified_date)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}, 
+      #{value,jdbcType=VARCHAR}, #{createdBy,jdbcType=VARCHAR}, #{lastModifiedBy,jdbcType=VARCHAR}, 
+      #{createdDate,jdbcType=TIMESTAMP}, #{lastModifiedDate,jdbcType=TIMESTAMP})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, description, value, created_by, last_modified_by, created_date, 
+    last_modified_date
+    from admin_config
+  </select>
+  <resultMap id="BaseResultMap" type="com.home.hhht.domain.AdminConfig">
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="last_modified_by" jdbcType="VARCHAR" property="lastModifiedBy" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+  </resultMap>
+  <insert id="insert" parameterType="com.home.hhht.domain.AdminConfig">
+    insert into admin_config (id, name, description, 
+      value, created_by, last_modified_by, 
+      created_date, last_modified_date)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}, 
+      #{value,jdbcType=VARCHAR}, #{createdBy,jdbcType=VARCHAR}, #{lastModifiedBy,jdbcType=VARCHAR}, 
+      #{createdDate,jdbcType=TIMESTAMP}, #{lastModifiedDate,jdbcType=TIMESTAMP})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, description, value, created_by, last_modified_by, created_date, 
+    last_modified_date
+    from admin_config
+  </select>
+  <resultMap id="BaseResultMap" type="com.home.hhht.domain.AdminConfig">
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="last_modified_by" jdbcType="VARCHAR" property="lastModifiedBy" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+  </resultMap>
+  <insert id="insert" parameterType="com.home.hhht.domain.AdminConfig">
+    insert into admin_config (id, name, description, 
+      value, created_by, last_modified_by, 
+      created_date, last_modified_date)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}, 
+      #{value,jdbcType=VARCHAR}, #{createdBy,jdbcType=VARCHAR}, #{lastModifiedBy,jdbcType=VARCHAR}, 
+      #{createdDate,jdbcType=TIMESTAMP}, #{lastModifiedDate,jdbcType=TIMESTAMP})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, description, value, created_by, last_modified_by, created_date, 
+    last_modified_date
+    from admin_config
+  </select>
+</mapper>
